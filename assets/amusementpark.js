@@ -1,5 +1,6 @@
-const age = 35;
-if(age  <= 6 || age >= 40){
+const age = 45;
+const isHoliday = true;
+if((age  <= 6) && isHoliday || (age >= 40) && isHoliday){
     console.log('Discount allowed');
 
 }
